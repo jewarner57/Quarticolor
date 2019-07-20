@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="LoadingScreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="kqK-FF-EVc">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="m5t-aH-bw8"/>
+                                    <constraint firstAttribute="height" constant="805" id="xge-5H-VRs"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="m5t-aH-bw8"/>
+                                        <exclude reference="xge-5H-VRs"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="m5t-aH-bw8"/>
+                                        <include reference="xge-5H-VRs"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Copyright (c) 2016 Jeff Warner. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Epe-IV-igj" userLabel="Copyright (c) 2016 Jeff Warner. All rights reserved.">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="All graphics, images, and art, created by Mark Chesnov" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wr-wK-n7B">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Teedbear's Games" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="veD-iG-WkL" userLabel="Teedbear's Games">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Soar composed/produced by Noisy Oyster provided by freesoundtrackmusic.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MH9-Ie-H5c">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="7"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kqK-FF-EVc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5N1-tT-Pbd"/>
+                            <constraint firstAttribute="bottom" secondItem="0wr-wK-n7B" secondAttribute="bottom" constant="13" id="Guw-Oc-K0Y"/>
+                            <constraint firstItem="Epe-IV-igj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HXc-Nv-Peu"/>
+                            <constraint firstItem="0wr-wK-n7B" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="J2A-N1-gyx"/>
+                            <constraint firstItem="veD-iG-WkL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Qpy-b5-hXR"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Epe-IV-igj" secondAttribute="bottom" constant="33" id="WwD-3Z-FZj"/>
+                            <constraint firstItem="MH9-Ie-H5c" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="b4A-IG-3QH"/>
+                            <constraint firstItem="kqK-FF-EVc" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="mCd-tT-z0R"/>
+                            <constraint firstItem="veD-iG-WkL" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="178" id="umZ-Rd-ar5"/>
+                            <constraint firstAttribute="bottom" secondItem="MH9-Ie-H5c" secondAttribute="bottom" constant="52" id="xvr-rI-13H"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="kqK-FF-EVc"/>
+                                <exclude reference="Epe-IV-igj"/>
+                                <exclude reference="0wr-wK-n7B"/>
+                                <exclude reference="veD-iG-WkL"/>
+                                <exclude reference="MH9-Ie-H5c"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Guw-Oc-K0Y"/>
+                                <exclude reference="J2A-N1-gyx"/>
+                                <exclude reference="HXc-Nv-Peu"/>
+                                <exclude reference="WwD-3Z-FZj"/>
+                                <exclude reference="b4A-IG-3QH"/>
+                                <exclude reference="xvr-rI-13H"/>
+                                <exclude reference="Qpy-b5-hXR"/>
+                                <exclude reference="umZ-Rd-ar5"/>
+                                <exclude reference="5N1-tT-Pbd"/>
+                                <exclude reference="mCd-tT-z0R"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="kqK-FF-EVc"/>
+                                <include reference="Epe-IV-igj"/>
+                                <include reference="0wr-wK-n7B"/>
+                                <include reference="veD-iG-WkL"/>
+                                <include reference="MH9-Ie-H5c"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Guw-Oc-K0Y"/>
+                                <include reference="J2A-N1-gyx"/>
+                                <include reference="HXc-Nv-Peu"/>
+                                <include reference="WwD-3Z-FZj"/>
+                                <include reference="b4A-IG-3QH"/>
+                                <include reference="xvr-rI-13H"/>
+                                <include reference="Qpy-b5-hXR"/>
+                                <include reference="umZ-Rd-ar5"/>
+                                <include reference="5N1-tT-Pbd"/>
+                                <include reference="mCd-tT-z0R"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LoadingScreen.png" width="2667" height="4733"/>
+    </resources>
+</document>
