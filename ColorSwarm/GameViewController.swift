@@ -28,10 +28,10 @@ class GameViewController: UIViewController {
     
     func loadAd() {
         
-        interstitial = GADInterstitial(adUnitID: "ca-app-pub-4573072210690240/8541892161")
+        interstitial = GADInterstitial(adUnitID: "KEY")
         let request = GADRequest()
         interstitial.load(request)
-        request.testDevices = [ kGADSimulatorID, "3ACFA31C-599F-4AF9-918B-602262D897" ]
+        request.testDevices = [ kGADSimulatorID, "KEY" ]
         
     }
     
